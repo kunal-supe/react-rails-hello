@@ -1,0 +1,5 @@
+<h1> Posts </h1>
+
+<% @posts.each do |post| %>
+  <%= react_component('Post', title: post.title, body: post.body, published: post.is_published?,  published_by: post.published_by) %>
+<% end %>

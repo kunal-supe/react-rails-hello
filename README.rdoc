@@ -1,0 +1,10 @@
+# React Rails Example:
+
+1. Root "/"
+
+  Component 1 'Message' : A Hello World example, passing props.
+  Component 2 'CommentBox' :  Set timer to change the text after 2 seconds
+
+2. "/posts"
+
+    Component 'Post': One way to display components from database.
